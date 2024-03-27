@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Young+Serif&display=swap');
+
+:root{
+    --color-Nutmeg:hsl(14, 45%, 36%);
+    --color-Dark-Raspberry: hsl(332, 51%, 32%);
+    --color-White: hsl(0, 0%, 100%);
+    --color-Rose-White: hsl(330, 100%, 98%);
+    --color-Eggshell: hsl(30, 54%, 90%);
+    --color-Light-Grey: hsl(30, 18%, 87%);
+    --color-Wenge-Brown: hsl(30, 10%, 34%);
+    --color-Dark-Charcoal: hsl(24, 5%, 18%);
+
+    --font-size:16px;
+    --font-family-young-serif:'Young Serif' , serif;
+    --font-family-Outfit:'Outfit' , sans-serif;
+
+    --font-weight-regualr:400;
+    --font-weight-bold:600;
+    --font-weight-extra-bold:700;
+}
+    
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    
+}
+
+body {
+    background-color:var(--color-Eggshell) ;
+    font-family: var(--font-family-Outfit);
+    font-size: var(--font-size);
+    color: var(--color-Dark-Charcoal);
+    width: 100vw;
+    height: auto;
+    min-height: 100vh;
+}
+h1 {
+    font-family: var(--font-family-young-serif);
+    font-weight: var(--font-weight-regualr);
+}
+#Omlette {
+    background-color: var(--color-White);
+    width: 700px;
+    height: fit-content;
+    padding: 30px;
+    border-radius:20px;
+    margin: 100px auto;
+    
+}
+#Omlette>*{
+    margin-bottom: 18px;
+}
+#Omlette > img{
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+#Omlette>p {
+    color: var(--color-Wenge-Brown);
+}
+#preparation{
+    background-color: var(--color-Rose-White);
+    border-radius: 10px;
+    padding: 30px;
+}
+#preparation>h3{
+    color: var(--color-Dark-Raspberry);
+    margin-bottom: 15px;
+}
+#preparation>ul>li {
+    margin-left: 24px;
+    padding-left: 16px;
+}
+#preparation li::marker{
+    color: var(--color-Dark-Raspberry);
+}
+span{
+    font-family: var(--font-family-Outfit);
+    font-weight: var(--font-weight-bold);
+    color: var(--color-Wenge-Brown);
+}
+#preparation li{
+    color:var(--color-Wenge-Brown);
+}
+
+h2{
+    color: var(--color-Nutmeg);
+    font-family: var(--font-family-young-serif);
+}
+.steps{
+    margin-left: 40px;
+    margin-bottom: 40px;
+}
+.steps li {
+    padding-left: 20px;
+}
+.steps>li::marker{
+    color: var(--color-Nutmeg);
+}
